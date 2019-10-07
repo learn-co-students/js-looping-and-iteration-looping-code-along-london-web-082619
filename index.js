@@ -1,10 +1,9 @@
 // Code your solutions in this file
 
-function writeCards(cards) {
-    const greetings = [];
+function writeCards(cards, surprise) {
+    let greetings = [];
     for (let i = 0; i < cards.length; i++) {
-      let greeting = `Thank you, ${cards[i]}, for the wonderful surprise gift!`;
-      greetings.push(greeting);
+      greetings.push (`Thank you, ${cards[i]}, for the wonderful ${surprise} gift!`);
     }
   
     return greetings;
