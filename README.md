@@ -57,7 +57,7 @@ Of the loops in JavaScript, the `for` loop is the most common. The `for` loop is
 made up of four statements in the following structure:
 
 ```js
-for ([initialization]; [condition]; [iteration]) {
+for ([i'on]; [condition]; [iteration]) {
   [loop body]
 }
 ```
