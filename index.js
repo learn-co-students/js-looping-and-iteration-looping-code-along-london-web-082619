@@ -15,3 +15,41 @@ function writeCards(cards, surprise) {
       num --;
     }
   }  
+
+ const countdown2 = (num) => {
+  while (num >= 0) {
+    console.log(num);
+    num --;
+  }
+ }
+
+ const timerWithSetInterval = () =>{
+   let timer;
+   let count =0;
+
+   const increment = () => {
+
+     count++;
+     
+     if (count >= 5 && timer != null) {
+       clearInterval(timer)
+     }
+     console.log(count)
+   }
+
+    timer = setInterval(increment, 1000)
+
+ }
+
+
+
+ const alertEvent = () => {
+   console.log(i)
+   if(i >= 5) clearInterval(id);
+   i++
+ }
+
+ let time = 1000;
+ let i = 1;
+ 
+ let id = setInterval(alertEvent, time)
